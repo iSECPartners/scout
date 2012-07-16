@@ -163,8 +163,9 @@
   "Calculates how dangerous a given permission is, according to this formula:
   Lowest value is zero, highest is 10."
   [perm]
-  (let [prefix (cidr-prefix (:from perm))]
-    (if prefix
+  (let [prefix (cidr-prefix (:from perm))
+        icmp? (= "icmp" (:proto perm))]
+    (if (and prefix (not icmp?))
       (* (port-risk (:ports perm))
          (prefix-risk prefix))
       0)))
