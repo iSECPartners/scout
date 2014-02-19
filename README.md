@@ -1,6 +1,11 @@
 # AWS Scout
 
 ## Description
+
+'''NOTE:''' Due to API changes, this software no longer works on modern AWS.
+Please see [Scout2](https://github.com/iSECPartners/Scout2) for a modern
+equivalent.
+
 The scale and variety of Amazon Web Servers (AWS) has created a
 constantly changing landscape. What was previously managed by enterprise IT
 groups is now done through a variety of Amazon-based services, leaving many
