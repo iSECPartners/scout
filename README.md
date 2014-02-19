@@ -2,7 +2,7 @@
 
 ## Description
 
-'''NOTE:''' Due to API changes, this software no longer works on modern AWS.
+_NOTE:_ Due to API changes, this software no longer works on modern AWS.
 Please see [Scout2](https://github.com/iSECPartners/Scout2) for a modern
 equivalent.
 
